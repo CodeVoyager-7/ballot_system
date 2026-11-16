@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>手机上传投票单</title>
+    <link rel="stylesheet" href="/static/mobile.css?v=20260415b" />
+  </head>
+  <body>
+    <main class="mobile-shell">
+      <section class="mobile-card hero-card">
+        <p class="eyebrow">Mobile Upload</p>
+        <h1 id="activity-title">加载活动中...</h1>
+        <p id="activity-subtitle" class="muted">请稍候，正在读取当前活动信息。</p>
+      </section>
+
+      <section class="mobile-card">
+        <div class="section-head">
+          <h2>拍照或上传投票单</h2>
+        </div>
+        <form id="mobile-upload-form" class="mobile-form">
+          <label class="capture-box">
+            <input id="mobile-file-input" type="file" accept="image/*,.png,.jpg,.jpeg,.bmp,.tif,.tiff" capture="environment" multiple />
+            <span>点击拍照或从相册选择投票单图片</span>
+            <small>当前版本不做扫描增强，请尽量拍清晰、完整、光线均匀的照片</small>
+          </label>
+          <div id="mobile-file-list" class="file-list"></div>
+          <button type="submit" class="primary-btn">上传并识别</button>
+          <p id="mobile-status" class="status-text"></p>
+        </form>
+      </section>
+
+      <section class="mobile-card">
+        <div class="section-head">
+          <h2>当前活动统计</h2>
+        </div>
+        <div id="mobile-summary" class="summary-grid"></div>
+        <div id="mobile-option-chart" class="bar-chart"></div>
+      </section>
+
+      <section class="mobile-card">
+        <div class="section-head">
+          <h2>最近上传记录</h2>
+        </div>
+        <div id="mobile-upload-history" class="history-list"></div>
+      </section>
+    </main>
+
+    <script src="/static/mobile_activity.js?v=20260415b"></script>
+  </body>
+</html>

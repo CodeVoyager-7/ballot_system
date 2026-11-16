@@ -1,0 +1,132 @@
+{
+  "latest_activity_id": "act_20260604114742386330",
+  "activities": [
+    {
+      "activity_id": "act_20260604114742386330",
+      "activity_name": "未命名投票活动",
+      "created_at": "2026-06-04T11:47:42",
+      "updated_at": "2026-06-04T12:23:26",
+      "upload_count": 3,
+      "ballot_count": 3,
+      "abnormal_ballot_count": 3,
+      "recognition_mode": "vision_model",
+      "legacy_batch_ids": [],
+      "template": {
+        "candidates": [],
+        "options": [],
+        "invalid_mark_rules": [
+          "circle",
+          "x_mark",
+          "filled_block",
+          "black_dot",
+          "scribble",
+          "heavy_shading",
+          "line"
+        ]
+      }
+    },
+    {
+      "activity_id": "act_20260603132609532777",
+      "activity_name": "未命名投票活动",
+      "created_at": "2026-06-03T13:26:09",
+      "updated_at": "2026-06-03T13:26:09",
+      "upload_count": 0,
+      "ballot_count": 0,
+      "abnormal_ballot_count": 0,
+      "recognition_mode": "vision_model",
+      "legacy_batch_ids": [],
+      "template": {
+        "candidates": [],
+        "options": [],
+        "invalid_mark_rules": [
+          "circle",
+          "x_mark",
+          "filled_block",
+          "black_dot",
+          "scribble",
+          "heavy_shading",
+          "line"
+        ]
+      }
+    }
+  ],
+  "activity_templates": [
+    {
+      "template_id": "tpl_8936c9adc62fcc9d",
+      "template_name": "未命名投票活动",
+      "activity_name": "未命名投票活动",
+      "created_at": "2026-06-04T11:47:42",
+      "updated_at": "2026-06-04T11:47:42",
+      "signature": "8936c9adc62fcc9d6c309eb4e89d559995fa0dee213060524ccee8feae53d0da",
+      "template": {
+        "candidates": [],
+        "options": [],
+        "invalid_mark_rules": [
+          "circle",
+          "x_mark",
+          "filled_block",
+          "black_dot",
+          "scribble",
+          "heavy_shading",
+          "line"
+        ]
+      }
+    },
+    {
+      "template_id": "tpl_6894ffdae21ff6bf",
+      "template_name": "民主测评",
+      "activity_name": "民主测评",
+      "created_at": "2026-06-03T11:27:44",
+      "updated_at": "2026-06-03T11:27:44",
+      "signature": "6894ffdae21ff6bfb369da621c65e09e880b929a6f06e81931a8812d88870fa6",
+      "template": {
+        "candidates": [],
+        "options": [
+          "优秀",
+          "合格",
+          "不合格"
+        ],
+        "invalid_mark_rules": [
+          "circle",
+          "x_mark",
+          "filled_block",
+          "black_dot",
+          "scribble",
+          "heavy_shading",
+          "line"
+        ]
+      }
+    },
+    {
+      "template_id": "tpl_89254698d131f2f1",
+      "template_name": "民主测评",
+      "activity_name": "民主测评",
+      "created_at": "2026-05-20T18:24:49",
+      "updated_at": "2026-05-20T19:06:09",
+      "signature": "89254698d131f2f198dee24b1371ced5efcce169627e52b6c25113babea179b2",
+      "template": {
+        "candidates": [
+          "张三",
+          "李四",
+          "王五",
+          "小赵",
+          "小苏"
+        ],
+        "options": [
+          "优秀",
+          "合格",
+          "不合格"
+        ],
+        "invalid_mark_rules": [
+          "circle",
+          "x_mark",
+          "filled_block",
+          "black_dot",
+          "scribble",
+          "heavy_shading",
+          "line"
+        ]
+      }
+    }
+  ]
+}
