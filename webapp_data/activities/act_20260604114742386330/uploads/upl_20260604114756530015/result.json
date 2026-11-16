@@ -1,0 +1,54 @@
+{
+  "template_name": "vision_model",
+  "ballot_count": 1,
+  "processed_images": [
+    "D:\\LectureFile\\IOT_project\\webapp_data\\activities\\act_20260604114742386330\\uploads\\upl_20260604114756530015\\001_84bed5104ec80be72a49995449e2b66d.png"
+  ],
+  "option_totals": {},
+  "candidate_totals": {},
+  "ballots": [
+    {
+      "template_name": "vision_model",
+      "image_path": "D:\\LectureFile\\IOT_project\\webapp_data\\activities\\act_20260604114742386330\\uploads\\upl_20260604114756530015\\001_84bed5104ec80be72a49995449e2b66d.png",
+      "summary": {},
+      "rows": [],
+      "is_abnormal": true,
+      "abnormal_types": [
+        "recognition_failed"
+      ],
+      "abnormal_details": {
+        "valid_vote_count": 0,
+        "ambiguous_rows": [],
+        "missing_mark_rows": [],
+        "error_message": "Missing VISION_MODEL_API_KEY or OPENAI_API_KEY."
+      },
+      "recognition_source": "vision_model",
+      "title": "",
+      "option_labels": {},
+      "raw_model_output": {
+        "error": "Missing VISION_MODEL_API_KEY or OPENAI_API_KEY."
+      },
+      "ballot_id": "upl_20260604114756530015_001",
+      "file_name": "001_84bed5104ec80be72a49995449e2b66d.png",
+      "original_url": "/data/activities/act_20260604114742386330/uploads/upl_20260604114756530015/001_84bed5104ec80be72a49995449e2b66d.png",
+      "review": {
+        "reviewed": false,
+        "comment": "",
+        "updated_at": null
+      }
+    }
+  ],
+  "abnormal_ballot_count": 1,
+  "abnormal_type_totals": {
+    "blank_ballot": 0,
+    "multiple_marks": 0,
+    "missing_marks": 0,
+    "recognition_failed": 1,
+    "invalid_mark": 0,
+    "unclear_mark": 0
+  },
+  "upload_id": "upl_20260604114756530015",
+  "activity_id": "act_20260604114742386330",
+  "created_at": "2026-06-04T11:47:56",
+  "recognition_mode": "vision_model"
+}
